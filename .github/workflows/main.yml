@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@learning-withdhruv'
+          scope: 'learning-withdhruv'
       - run: npm install
       - run: npm publish
         env:
